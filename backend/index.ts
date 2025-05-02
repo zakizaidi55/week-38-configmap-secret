@@ -1,4 +1,6 @@
-
+require("dotenv").config({
+    file: "./secret/.env"
+})
 import express from "express";
 
 const app = express();
